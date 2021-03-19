@@ -1,8 +1,10 @@
-# Shaka Player versions affected
+# Shaka Player spurious caption bug
+
+## Versions affected
 
 3.0.0 - 3.0.10. The example here uses shaka player 3.0.10
 
-# Run this example
+## Run this example
 
 1. Host the files here in a web server. I used nginx in docker, like:
 
@@ -14,6 +16,6 @@ docker run --rm -p 8080:80 --name web -v "$PWD":/usr/share/nginx/html nginx:1.19
 
 3. Look at the text tracks, there is a track labeled "Unrecognized ()". But you can see that no playlists are configured. None in the hls playlsit, none in the player config.
 
-# What I see
+## What I see
 
 ![gif of bug; first click kebab control panel icon, then click captions, then see a text track labeled "Unrecognized ()"](spurious_caption.gif)
