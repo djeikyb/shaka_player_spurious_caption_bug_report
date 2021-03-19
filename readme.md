@@ -1,3 +1,7 @@
+# Shaka Player versions affected
+
+3.0.0 - 3.0.10. The example here uses shaka player 3.0.10
+
 # Run this example
 
 1. Host the files here in a web server. I used nginx in docker, like:
