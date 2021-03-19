@@ -1,5 +1,7 @@
 # Shaka Player spurious caption bug
 
+Reported as issue [google/shaka-player#3250](https://github.com/google/shaka-player/issues/3250)
+
 ## Versions affected
 
 3.0.0 - 3.0.10. The example here uses shaka player 3.0.10
